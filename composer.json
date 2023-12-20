@@ -1,0 +1,36 @@
+{
+    "name": "abdulbaset/paymob-payment-gateway",
+    "description":"The Paymob Payment Gateway PHP package is a convenient integration for developers seeking to integrate Paymob's payment services into their PHP applications. This package streamlines the process of initiating and managing payments, offering support for various payment methods, including mobile wallets and card payments.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://digitalatum.com",
+    "autoload": {
+        "psr-4": {
+            "Abdulbaset\\PaymentGateways\\Paymob\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdulbaset R. Sayed",
+            "email": "AbdulbasetRedaSayedHF@Gmail.com"
+        },
+        {
+            "name": "Abdulbaset R. Sayed",
+            "email": "Abdulbaset_RS@DigitalAtum.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "laravel",
+        "package",
+        "paymob",
+        "payment",
+        "gateway",
+        "paymob-payment-gateway"
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
