@@ -23,13 +23,13 @@ composer require abdulbaset/paymob-payment-gateway
 after installing the package you should include the namespace, see the following code:
 
 ```bash
-use Abdulbaset\PaymentGateways\Paymob\PaymobController;
+use Abdulbaset\PaymentGateways\Paymob\PaymobPaymentMethod;
 ```
 
 if you want to get the card url for payment, see the following code:
 
 ```bash
-$invoice = new PaymobController();
+$invoice = new PaymobPaymentMethod();
 $invoice->setApiKey($API_Key);
 $invoice->setAmountCents(10.00 * 100);
 $invoice->getCardPaymentsURL('0123456', '123456');
@@ -41,7 +41,7 @@ $invoice->getCardPaymentsURL('0123456', '123456');
 if you want to get the mobile wallet url for payment, see the following code:
 
 ```bash
-$invoice = new PaymobController();
+$invoice = new PaymobPaymentMethod();
 $invoice->setApiKey($API_Key);
 $invoice->setAmountCents(10.00 * 100);
 $invoice->getMobileWalletsURL('0123456','01010101010');

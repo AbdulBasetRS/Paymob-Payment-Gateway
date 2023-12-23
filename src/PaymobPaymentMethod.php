@@ -4,7 +4,7 @@ namespace Abdulbaset\PaymentGateways\Paymob;
 
 use GuzzleHttp\Client;
 
-class PaymobController
+class PaymobPaymentMethod
 {
 
     private $apiKey;
