@@ -20,6 +20,8 @@ Use [Composer](https://getcomposer.org/) to install the package:
 composer require abdulbaset/paymob-payment-gateway
 ```
 
+## Usage
+
 after installing the package you should include the namespace, see the following code:
 
 ```bash
